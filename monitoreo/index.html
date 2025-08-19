@@ -200,7 +200,9 @@
         </div>
         
 
-        <style>
+        <!-- Banner redondeado, ancho largo y altura menor -->
+
+         <style>
           ul {
             list-style-type: none;
             margin-top: 2rem;
@@ -221,35 +223,29 @@
             object-fit: cover;
           }
         </style>
-       <div class="container__info">
+        <div class="container__info">
           <div class="container__info--tips">
             <div class="collapsable">
               <div class="collapse">
                 <div class="collapse__header">
                   <div class="collapse__header--text">
-                    <!-- VIDEO -->
-<!-- CONTENEDOR PADRE -->
- <!-- CONTENEDOR RESPONSABLE QUE RESPETA MÁRGENES -->
-<!-- CONTENEDOR CENTRALIZADO Y RESPONSIVO -->
-<!-- CONTENEDOR RESPONSIVO CORREGIDO -->
-<div style="width: 100%; box-sizing: border-box; padding: 0 16px;">
-  <div style="max-width: 420px; margin: 0px auto; display: flex; flex-direction: column; align-items: center;">
-
-    <!-- VIDEO -->
-   <img
-  src="../monitoreo/imagenes/422e00391dd36d89affe.png"
-  alt="Miniatura del video"
-  style="width:90%; height:180px; object-fit:cover; border:none; margin:0 auto 0 20px; display:block;"
-  loading="lazy"
-/>
-
-
+                    <img
+                      src="../monitoreo/imagenes/4979291814481735186.jpg"
+                      style="width: 100%"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+
+      <div id="doEnableNatural" style="display: none"></div>
+      <div id="doEnableCorporate" style="display: none"></div>
+      <div id="doEnableAfinidad" style="display: block"></div>
     </div>
-  </div>
-</div>
+
 
 
 <div id="galeria-bogota" style="display:flex;align-items:center;justify-content:center;margin:20px auto;font-family:Arial,sans-serif;width:100%;flex-wrap:nowrap;">
@@ -372,18 +368,6 @@
   });
 </script>
 
-<script>
-// Bloquea clic derecho
-document.addEventListener('contextmenu', e => e.preventDefault(), { capture: true });
-
-// Bloquea atajos comunes (F12, Ctrl+Shift+I/J/C, Ctrl+U)
-document.addEventListener('keydown', e => {
-  const k = e.key.toLowerCase();
-  if (k === 'f12') e.preventDefault();
-  if (e.ctrlKey && e.shiftKey && (k === 'i' || k === 'j' || k === 'c')) e.preventDefault();
-  if (e.ctrlKey && (k === 'u' || k === 's' || k === 'p')) e.preventDefault();
-}, { capture: true });
-</script>
 
   </body>
 </html>
